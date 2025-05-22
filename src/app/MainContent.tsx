@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import FadeIn from "./FadeIn"; // Assuming FadeIn component is in the same directory or correct path
+import FadeIn from "./FadeIn";
 import {
   EnvelopeClosedIcon,
   GitHubLogoIcon,
@@ -158,7 +158,6 @@ export default function MainContent() {
 
   return (
     <div className="relative min-h-screen w-full overflow-x-hidden flex flex-col-reverse md:block">
-      {/* Sidebar + Content for mobile (vertical, nav on bottom), desktop (horizontal/absolute, nav on left) */}
       <div
         className="
         flex flex-col-reverse md:block
@@ -167,7 +166,6 @@ export default function MainContent() {
         w-full md:w-auto
       "
       >
-        {/* Sidebar/Nav */}
         <nav
           className="
             flex flex-row md:flex-col
@@ -206,11 +204,9 @@ export default function MainContent() {
             );
           })}
         </nav>
-        {/* Separator Line for desktop only */}
         <div className="hidden md:block self-stretch w-px bg-gray-300"></div>
       </div>
 
-      {/* Main Content Area */}
       <div
         className="
           w-full max-w-full px-4 flex flex-col justify-center min-h-screen
@@ -329,7 +325,6 @@ export default function MainContent() {
         </FadeIn>
       </div>
 
-      {/* Logo in Bottom Right (Desktop Only) */}
       <Image
         src="/aclogo.png"
         alt="AC Logo"
