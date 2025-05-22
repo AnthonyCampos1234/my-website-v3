@@ -27,7 +27,7 @@ const projects = [
     name: "Pydaline",
     desc: "AI-powered network analytics.",
     links: [
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/Pydaline" },
+      { label: "GitHub", url: "https://github.com/camposanthony/Pydaline" },
     ],
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/Facsimile",
+        url: "https://github.com/camposanthony/Facsimile",
       },
     ],
   },
@@ -46,7 +46,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/TruckTetris",
+        url: "https://github.com/camposanthony/TruckTetris",
       },
     ],
   },
@@ -56,7 +56,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/TruckTetrisv2",
+        url: "https://github.com/camposanthony/TruckTetrisv2",
       },
     ],
   },
@@ -74,7 +74,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/Dormeal2.0",
+        url: "https://github.com/camposanthony/Dormeal2.0",
       },
     ],
   },
@@ -82,7 +82,7 @@ const projects = [
     name: "WutDoIDo",
     desc: "NEU degree audit extension.",
     links: [
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/WutDoIDo" },
+      { label: "GitHub", url: "https://github.com/camposanthony/WutDoIDo" },
     ],
   },
   {
@@ -90,21 +90,19 @@ const projects = [
     desc: "Class registration management.",
     links: [
       { label: "Website", url: "https://join-waitless.netlify.app/" },
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/Waitless" },
+      { label: "GitHub", url: "https://github.com/camposanthony/Waitless" },
     ],
   },
   {
     name: "Nota",
     desc: "Student course & GPA tracker app.",
-    links: [
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/Nota" },
-    ],
+    links: [{ label: "GitHub", url: "https://github.com/camposanthony/Nota" }],
   },
   {
     name: "Stupedia",
     desc: "Experimental 'Yelp for people'.",
     links: [
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/Stupedia" },
+      { label: "GitHub", url: "https://github.com/camposanthony/Stupedia" },
     ],
   },
   {
@@ -112,7 +110,7 @@ const projects = [
     desc: "University advising platform.",
     links: [
       { label: "Website", url: "https://avisari.com" },
-      { label: "GitHub", url: "https://github.com/AnthonyCampos1234/Avisari" },
+      { label: "GitHub", url: "https://github.com/camposanthony/Avisari" },
     ],
   },
   {
@@ -126,7 +124,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/BillsForKids",
+        url: "https://github.com/camposanthony/BillsForKids",
       },
     ],
   },
@@ -137,7 +135,7 @@ const projects = [
       { label: "Website", url: "https://web-of-lies.vercel.app/" },
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/Web-of-Lies",
+        url: "https://github.com/camposanthony/Web-of-Lies",
       },
     ],
   },
@@ -147,7 +145,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnthonyCampos1234/My-Website",
+        url: "https://github.com/camposanthony/My-Website",
       },
     ],
   },
@@ -266,12 +264,12 @@ export default function MainContent() {
                   <GitHubLogoIcon className="w-5 h-5" />
                   <span>GitHub:</span>
                   <a
-                    href="https://github.com/AnthonyCampos1234"
+                    href="https://github.com/camposanthony"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline hover:text-black"
                   >
-                    AnthonyCampos1234
+                    camposanthony
                   </a>
                 </li>
                 <li className="flex flex-row items-center gap-2 flex-wrap">
